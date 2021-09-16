@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+  <script src = 'box.js'></script>
+  
+</head>
+
+<body>
+
+  <a-scene background="color:#000000">
+
+    <a-camera position="0 0 50" rotation = '0 270 0' zoom>
+
+    </a-camera>
+
+
+
+    <a-sphere position = '0 -50 0' radius = '30' src = 'earth.jpg'>
+      
+    </a-sphere>
+
+    <a-entity move>
+    <a-cylinder fall position = '0 -15 0' height = '10' color = 'grey'>
+      
+    </a-cylinder>
+
+    <a-cone position = '0 -5 0' height = '10' radius-bottom ='1.5' color = 'red'>
+      
+    </a-cone>
+    
+    </a-entity>>
+  </a-scene>
+
+</body>
+
+</html>
+
